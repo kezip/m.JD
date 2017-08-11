@@ -1,0 +1,215 @@
+#layout {
+  min-width: 300px;
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #ccc;
+}
+#topbar {
+  position: fixed;
+  height: 40px;
+  z-index: 99;
+  width: 100%;
+  max-width: 640px;
+}
+#topbar .icon-logo {
+  width: 60px;
+  height: 24px;
+  background-image: url(../images/sprites.png);
+  background-size: 200px 200px;
+  background-position: 0 -109px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+#topbar > form {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+#topbar > form .icon-search {
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/sprites.png);
+  background-size: 200px 200px;
+  background-position: -60px -109px;
+  position: absolute;
+  top: 8px;
+  left: 75px;
+}
+#topbar > form > input {
+  width: 100%;
+  height: 30px;
+  border-radius: 30px;
+  margin-top: 4px;
+  padding-left: 30px;
+}
+#topbar .login {
+  height: 24px;
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+#slide {
+  position: relative;
+  overflow: hidden;
+}
+#slide > ul:first-of-type {
+  width: 1000%;
+  transform: translateX(-10%);
+}
+#slide > ul:first-of-type > li {
+  width: 10%;
+  float: left;
+}
+#slide > ul:first-of-type > li > a > img {
+  width: 100%;
+}
+#slide > ul:last-of-type {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#slide > ul:last-of-type > li {
+  width: 6px;
+  height: 6px;
+  margin-left: 3px;
+  border-radius: 50%;
+  border: 1px solid white;
+  float: left;
+}
+#slide > ul:last-of-type > li.active {
+  background-color: #fff;
+}
+#nav {
+  background-color: white;
+  padding: 5px;
+}
+#nav > ul {
+  padding: 10px;
+}
+#nav > ul > li {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+#nav > ul > li > a > img {
+  width: 58px;
+  height: 58px;
+}
+#nav > ul > li > a > p {
+  font-size: 12px;
+  margin: 5px 0;
+}
+#products {
+  margin-top: 15px;
+}
+#products .seckill {
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+#products .seckill .seckill-top {
+  line-height: 40px;
+}
+#products .seckill .seckill-top > div {
+  float: left;
+}
+#products .seckill .seckill-top .seckill-time {
+  line-height: 35px;
+  margin: 0px 10px;
+}
+#products .seckill .seckill-top .seckill-time > img {
+  width: 20px;
+  height: 25px;
+}
+#products .seckill .seckill-top .seckill-name {
+  color: #e92223;
+  margin-right: 10px;
+}
+#products .seckill .seckill-top .seckill-timing > span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+#products .seckill .seckill-top > a {
+  float: right;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+#products .seckill .seckill-bottom > ul > li {
+  width: 33.33%;
+  float: left;
+  text-align: center;
+  border-left: 1px solid #ccc;
+}
+#products .seckill .seckill-bottom > ul > li:first-of-type {
+  border-left: 0;
+}
+#products .seckill .seckill-bottom > ul > li > a > img {
+  width: 60%;
+}
+#products .seckill .seckill-bottom > ul > li > a > p {
+  font-size: 12px;
+}
+#products .seckill .seckill-bottom > ul > li > a > p:first-of-type {
+  color: #e92223;
+}
+#products .seckill .seckill-bottom > ul > li > a > p:last-of-type {
+  text-decoration: line-through;
+}
+#products .recommend {
+  background-color: #fff;
+  margin: 15px 5px 0px 5px;
+  position: relative;
+}
+#products .recommend .recommend-top {
+  border-bottom: 1px solid #ccc;
+  line-height: 30px;
+  padding-left: 20px;
+}
+#products .recommend .recommend-top::before {
+  content: "";
+  display: block;
+  width: 4px;
+  height: 16px;
+  background-color: #e92223;
+  position: absolute;
+  top: 6px;
+  left: 10px;
+}
+#products .recommend .recommend-bottom {
+  width: 100%;
+}
+#products .recommend .recommend-bottom > div {
+  float: left;
+}
+#products .recommend .recommend-bottom .recommend-left {
+  width: 50%;
+  border-right: 1px solid #ccc;
+}
+#products .recommend .recommend-bottom .recommend-left > a > img {
+  width: 100%;
+}
+#products .recommend .recommend-bottom .recommend-right {
+  width: 50%;
+}
+#products .recommend .recommend-bottom .recommend-right > a > img {
+  width: 100%;
+  height: 50%;
+}
+#products .recommend .recommend-bottom .recommend-right > a:first-of-type > img {
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#products .optimization {
+  margin-top: 0px;
+}
+#products .optimization .optimization-name {
+  border-top: 1px solid #ccc;
+}
